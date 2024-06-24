@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/sand"
+        android:scaleType="centerCrop" />
+
+    <ImageView
+        android:id="@+id/animated_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/waveanimation"
+        android:scaleType="centerCrop" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:id="@+id/splash_text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="오늘,"
+            android:textStyle="bold"
+            android:textSize="80dp"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/splash_text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="바다"
+            android:textSize="80dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:paddingLeft="10dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="로그인"
+            android:layout_marginTop="340dp"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/gologin"
+            android:textColor="@color/white"
+            app:backgroundTint="@null"
+            android:background="@drawable/button"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="시작하기"
+            android:textColor="@color/white"
+            android:id="@+id/start"
+            app:backgroundTint="@null"
+            android:background="@drawable/button" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

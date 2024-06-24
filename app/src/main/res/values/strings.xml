@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">HangangApplication</string>
+    <string name="drawer_opened">Opened Drawer</string>
+    <string name="drawer_closed">Closed Drawer</string>
+    <string name="default_client_id">632494152529-khdaec76teh0cd0rspt77l8i0gv23f0v.apps.googleusercontent.com</string>
+
+    <!-- 네이버 로그인 -->
+    <string name="naver_client_id">GZEBFmd3_jnG3c8Ld55x</string>
+    <string name="naver_client_secret">hWPbNBtTbA</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+</resources>

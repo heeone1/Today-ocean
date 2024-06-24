@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "632494152529",
+    "project_id": "hangang-1bedc",
+    "storage_bucket": "hangang-1bedc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:632494152529:android:d67ee13264c116f23a5170",
+        "android_client_info": {
+          "package_name": "com.example.hangangapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "632494152529-4mm86hn4av7rfk7j20r8gk4u1p57vsc7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hangangapplication",
+            "certificate_hash": "4acaa20dd1146f26559dbd5586bf6208fccd367e"
+          }
+        },
+        {
+          "client_id": "632494152529-khdaec76teh0cd0rspt77l8i0gv23f0v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_P2Ie8_E31DrrICxPdDcM4xnGdOlHgEo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "632494152529-khdaec76teh0cd0rspt77l8i0gv23f0v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

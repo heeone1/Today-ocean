@@ -1,0 +1,43 @@
+<resources>
+    <!-- 색상 설정 -->
+    <string-array name="my_color">
+        <item>파랑</item>
+        <item>빨강</item>
+        <item>초록</item>
+
+    </string-array>
+
+    <string-array name="my_color_values">
+        <item>#007BE1</item>
+        <item>#ff0000</item>
+        <item>#00ff00</item>
+    </string-array>
+
+    <!-- 크기 설정 -->
+    <string-array name="my_size">
+        <item>작게</item>
+        <item>중간</item>
+        <item>크게</item>
+    </string-array>
+
+    <string-array name="my_size_values">
+        <item>7에</item>
+        <item>16.0f</item>
+        <item>25.0f</item>
+    </string-array>
+
+    <!-- 스타일 설정 -->
+    <string-array name="my_text_style">
+        <item>Normal</item>
+        <item>Bold</item>
+        <item>Italic</item>
+        <item>Bold Italic</item>
+    </string-array>
+
+    <string-array name="my_text_style_values">
+        <item>normal</item>
+        <item>bold</item>
+        <item>italic</item>
+        <item>bold_italic</item>
+    </string-array>
+</resources>

@@ -1,0 +1,52 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/messages_header">
+
+        <EditTextPreference
+            app:key="settitle"
+            app:title="제목 수정"
+            app:useSimpleSummaryProvider="true"
+            app:defaultValue="바다 후기 작성하기"/>
+
+        <ListPreference
+            app:key="textStyle"
+            app:title="저장 버튼 색상 선택"
+            app:summary="Normal"
+            app:entries="@array/my_text_style"
+            app:entryValues="@array/my_text_style_values"
+            app:defaultValue="normal" />
+
+        <ListPreference
+            app:defaultValue="#007BE1"
+            app:entries="@array/my_color"
+            app:entryValues="@array/my_color_values"
+            app:key="color"
+            app:title="저장 버튼 색상 선택"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            app:defaultValue="16.0f"
+            app:entries="@array/my_size"
+            app:entryValues="@array/my_size_values"
+            app:key="size"
+            app:title="ID 글씨 크기 선택"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/sync_header">
+
+        <SwitchPreferenceCompat
+            app:key="sync"
+            app:title="@string/sync_title" />
+
+        <SwitchPreferenceCompat
+            app:dependency="sync"
+            app:key="attachment"
+            app:summaryOff="@string/attachment_summary_off"
+            app:summaryOn="@string/attachment_summary_on"
+            app:title="@string/attachment_title" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
